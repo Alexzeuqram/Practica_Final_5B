@@ -10,7 +10,7 @@ db = require("./database").config;
 userRoutes = require("./routes/user");
 petRoutes = require("./routes/pet");
 adoptionRoutes = require("./routes/adoption");
-
+//ManuelBasado
 //JorgeZzZzZ
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(myConnection(mysql, db));
